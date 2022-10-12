@@ -12,7 +12,7 @@ import Foundation
 @MainActor
 class WeatherService {
     @WeatherRequestBuilder func request(for city: String) -> URLRequest {
-        ("key", "d50030ebca114a31b09151213222404")
+        ("key", "<your key here>")
         ("q", city)
         ("aqi", "no")
     }
